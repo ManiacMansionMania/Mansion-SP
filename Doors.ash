@@ -64,7 +64,6 @@ struct DoorType
 	Object			*o_NewObjekt;
 	
 	import int SetStrings(String lookat, String islocked, String wrongitemopen,  String wrongitemclose, String lookAt2);
-	//import int SetStrings(String lookat, String islocked, String wrongitem, String lookAt2);
 	import int ClickSpecial(int opensound = 2, int closesound = 3, int key = -1, int closevalue = 0);
 	import int Click();
 	import int Init(Object *o_Objekt, Hotspot *h_Hotspot);
@@ -76,7 +75,7 @@ struct DoorType
 #define MAX_DOORS 50
 import DoorType Door[MAX_DOORS];
 import String s_IsLockedStandard;
-import String s_WrongItemStandard;
+import String s_WrongItemOpenStandard;
 import String s_WrongItemCloseStandard;
 import String s_LookAtStandard;
 import String s_NewLookAtStandard;
