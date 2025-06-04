@@ -1,5 +1,8 @@
 Compiled/*
 _Debug/*
-agssave.
-*.bak
-backup_*
+agssave.*
+*bak
+backup*
+warnings.log
+*.crm.user
+Game.agf.user
