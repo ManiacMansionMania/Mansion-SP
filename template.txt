@@ -1,0 +1,6 @@
+MMM Mansion Starterpack
+
+This starterpack provides you with the full interface inspired by Day of the Tentacle and includes the Edison Mansion as seen in Mansion Mansion Deluxe.
+Read midi.txt in your games root directory on how to setup MIDI support.
+
+Have fun!
